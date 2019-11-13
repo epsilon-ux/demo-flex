@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- web + icon fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- custom css + bootstrap overrides -->
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/global.css">
+
+    <title>Flexbox and Bootstrap's v4 Layout Grid</title>
+  </head>
+  <body>
+    <div class="app-wrapper">
+      <div class="container-fluid page-header">
+          <div class="row">
+            <div class="col">
+              <h1 class="h1 mb-0">Flexbox and Bootstrap's v4 Layout Grid</h1>
+            </div>
+          </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row justify-content-between mb-3">
+          <div class="col">
+            <h2 class="h1">Demo Page</h2>
+          </div>
+          <div class="col-auto">
+            <button class="btn btn-primary">Create Object</button>
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="form-group">
+                    <label for="input1">Input 1</label>
+                    <input type="text" id="input1" class="form-control" />
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="form-group">
+                    <label for="input1">Input 2</label>
+                    <input type="text" id="input2" class="form-control" />
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="form-group">
+                    <label for="input1">Input 3</label>
+                    <input type="text" id="input3" class="form-control" />
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="form-group">
+                    <label for="input1">Input 4</label>
+                    <input type="text" id="input4" class="form-control" />
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="form-group">
+                    <label for="input1">Input 5</label>
+                    <input type="text" id="input5" class="form-control" />
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="form-group">
+                    <label for="input1">Input 6</label>
+                    <input type="text" id="input6" class="form-control" />
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="form-group">
+                    <label for="input1">Input 7</label>
+                    <input type="text" id="input7" class="form-control" />
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3">
+                <div class="form-group">
+                    <label for="input1">Input 8</label>
+                    <input type="text" id="input8" class="form-control" />
+                </div>
+            </div>
+          </div>
+          <div class="row align-items-center mb-3">
+              <div class="col-auto">
+                  <button class="btn btn-outline-primary btn-lg">Search</button>
+              </div>
+              <div class="col-auto pl-0">
+                  <button class="text-button">Clear</button>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                  <div class="table-responsive">
+                    <table class="table table-striped">
+                      <thead>
+                        <tr>
+                          <th>Column Name</th>
+                          <th>Column Name</th>
+                          <th>Column Name</th>
+                          <th>Column Name</th>
+                          <th>Column Name</th>
+                          <th>Column Name</th>
+                          <th>Column Name</th>
+                          <th>Column Name</th>
+                          <th>Column Name</th>
+                          <th>Column Name</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                        </tr>
+                        <tr>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                        </tr>
+                        <tr>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                        </tr>
+                        <tr>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                        </tr>
+                        <tr>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                          <td>Column Data</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+    <div class="page-footer">
+      <div class="container-fluid">
+          <div class="row justify-content-end">
+            <div class="col col-md-auto">
+              <button class="btn btn-outline-primary btn-block btn-lg mb-3 mb-md-0">Cancel</button>
+            </div>
+            <div class="col col-md-auto">
+              <button class="btn btn-primary btn-block btn-lg">Save</button>
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
